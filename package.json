@@ -1,0 +1,19 @@
+{
+  "name": "cyberpunk-witch.github.io",
+  "version": "1.0.0",
+  "description": "my personal website - keira black",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cyberpunk-witch/cyberpunk-witch.github.io.git"
+  },
+  "author": "Keira Persephone Black",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyberpunk-witch/cyberpunk-witch.github.io/issues"
+  },
+  "homepage": "https://github.com/cyberpunk-witch/cyberpunk-witch.github.io#readme"
+}
