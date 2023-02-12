@@ -1,0 +1,21 @@
+{
+  "name": "dungeonsandgenerators",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": "git@github.com:tewarinerai/stunning-telegram.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sequelize": "^5.21.2"
+  },
+  "devDependencies": {
+    "pg": "^7.14.0"
+  }
+}

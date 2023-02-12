@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-07-10T11:46:15-07:00
+
+====== Thursday 10 Jul 2014 ======
+
+Played with page layout, got it slightly fancier looking and things centered.
+Removed bootstrap layout; not sure of how major an overhaul resizeable dungeons would be. It seems like it might not be that hard, but I am not sure.
+I think it would involve simply creating large and small tile sets and changing some of the map features.
+Toyed with color scheme. Not totally happy with it yet.
+

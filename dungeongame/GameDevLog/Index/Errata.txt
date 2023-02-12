@@ -1,0 +1,33 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-07-07T10:44:33-07:00
+
+====== Errata ======
+Created Monday 07 July 2014
+
+For future releases, things that might be cool:
+-a proper inventory system
+-unit tests and E2E tests
+-more detailed art, bigger tiles
+-more detailed plot / storyline
+-saved games / audit trail in C# like in our Casino project.
+-generally handling transferring data between pages via ajax requests rather than exposing them on the front end, implementing security
+-more or less the future of this project is in C#.
+-moving back to bootstrap, and having the spritesheet be a variable that switches out when you resize the page, might be an interesting experiment.
+-figuring out genuine animated sprites. Right now, the character changes direction when you change direction by toggling the underlying symbol.
+Finding out definitively whether the current version of rot.js supports animated gifs might be interesting. If it does not, figuring out a 'hacky' solution might be cool.
+If we wanted to go CRAZY:
+Rot.js has asynchronous movement support, so we could introduce an initiative stack
+we could work on putting in randomly generated monsters, those are super fun
+adding edges to walls - I have the resources for it, what I need is to basically traverse the map with a couple of nested for loops, and inside those another couple of nested for loops with conditionals
+to check whether or not there is a square there, or a map edge or whatnot, and figure out which tile to replace that blank tile with (if it is blank).
+Rot.js also has stacking tile support, so I could have transparencies on my mobs and stack them.
+I could actually learn how rot.js's lighting algorithm works as far as rendering sprite tiles instead of just implementing a hard lighting system.
+As long as we're tracking player data, we could put in a leader board.
+Or heck, use a giant, statically generated world, with asynchronous players logged into the same environment, and let 'em chat with each other.
+Cause that would be cool, you know?
+
+-More code comments, unit tests, etcetera.
+
+
+

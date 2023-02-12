@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-07-09T08:36:54-07:00
+
+====== Wednesday 09 Jul 2014 ======
+
+Today should be a really interesting day, as I accidentally destroyed my index.html file, which shouldn't be too tricky, but is nevertheless - slightly tricky.
+I got multiple monsters, but they are invisible for some reason
+I got the character sprite changing direction with the arrow pads.
+I got the monsters to be visible. I also was able to pass the achievements and scores to the result pages. 
+Had to replace jquery $() selectors with document.getElementById to access play() and pause() functions. I don't know if jquery is not up to date with the latest
+html5 stuff or whether it is a problem with my VERSION of jquery, but it does not matter as there is a simple work around.
+I will read up on the getElementById vs the $() selector and see whether I am missing anything later.
+I downloaded a bunch of sound effects and got background music working.
+Lighting engine now working.
+

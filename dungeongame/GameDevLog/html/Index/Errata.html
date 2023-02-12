@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title></title>
+		<meta name='Generator' content='Zim 0.60'>
+		<style type='text/css'>
+			a          { text-decoration: none      }
+			a:hover    { text-decoration: underline }
+			a:active   { text-decoration: underline }
+			strike     { color: grey                }
+			u          { text-decoration: none;
+			             background-color: yellow   }
+			tt         { color: #2e3436;            }
+			pre        { color: #2e3436;
+			             margin-left: 20px          }
+			h1         { text-decoration: underline;
+			             color: #4e9a06             }
+			h2         { color: #4e9a06             }
+			h3         { color: #4e9a06             }
+			h4         { color: #4e9a06             }
+			h5         { color: #4e9a06             }
+			span.insen { color: grey                }
+		</style>
+	</head>
+	<body>
+
+<!-- Header -->
+
+	[ <a href='../Index.html'>Prev</a> ]
+
+			[ <a href='/'>Index</a> ]
+
+	[ <a href='../Journal/2014/07/07.html'>Next</a> ]
+
+<!-- End Header -->
+
+<hr />
+
+<!-- Wiki content -->
+
+<h1>Errata</h1>
+
+<p>
+Created Monday 07 July 2014<br>
+</p>
+
+<p>
+For future releases, things that might be cool:<br>
+-a proper inventory system<br>
+-unit tests and E2E tests<br>
+-more detailed art, bigger tiles<br>
+-more detailed plot / storyline<br>
+-saved games / audit trail in C# like in our Casino project.<br>
+-generally handling transferring data between pages via ajax requests rather than exposing them on the front end, implementing security<br>
+-more or less the future of this project is in C#.<br>
+-moving back to bootstrap, and having the spritesheet be a variable that switches out when you resize the page, might be an interesting experiment.<br>
+-figuring out genuine animated sprites. Right now, the character changes direction when you change direction by toggling the underlying symbol.<br>
+Finding out definitively whether the current version of rot.js supports animated gifs might be interesting. If it does not, figuring out a 'hacky' solution might be cool.<br>
+If we wanted to go CRAZY:<br>
+Rot.js has asynchronous movement support, so we could introduce an initiative stack<br>
+we could work on putting in randomly generated monsters, those are super fun<br>
+adding edges to walls - I have the resources for it, what I need is to basically traverse the map with a couple of nested for loops, and inside those another couple of nested for loops with conditionals<br>
+to check whether or not there is a square there, or a map edge or whatnot, and figure out which tile to replace that blank tile with (if it is blank).<br>
+Rot.js also has stacking tile support, so I could have transparencies on my mobs and stack them.<br>
+I could actually learn how rot.js's lighting algorithm works as far as rendering sprite tiles instead of just implementing a hard lighting system.<br>
+As long as we're tracking player data, we could put in a leader board.<br>
+Or heck, use a giant, statically generated world, with asynchronous players logged into the same environment, and let 'em chat with each other.<br>
+Cause that would be cool, you know?<br>
+-it might be nice to separate out things more by aspect as well, such as logging and so on, although globalvars works as a service of sorts and might serve as the potential basis for an eventual logging file.<br>
+</p>
+
+<p>
+-More code comments, unit tests, etcetera.<br>
+</p>
+
+
+
+
+
+<!-- End wiki content -->
+
+<hr />
+
+<!-- Attachments and Backlinks -->
+
+	<i>No backlinks to this page.</i>
+<br><br>
+
+
+
+<!-- End Attachments and Backlinks -->
+
+	</body>
+
+</html>

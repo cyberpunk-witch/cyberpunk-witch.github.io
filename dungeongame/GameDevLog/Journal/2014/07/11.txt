@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-07-11T08:52:24-07:00
+
+====== Friday 11 Jul 2014 ======
+
+Final day!
+Added three levels!
+Monsters now get more powerful with each level.
+Resolved multiple portals bug.
+Resolved bug where monsters were not powerful enough.
+Made it so character gets stronger with each level as well.
+Resolved the issue of the character just getting more and more swords all the time.
+Came up with a loosely plausible storyline (except the part where your friends all have a freakin' magical tower).
+Added more sprites to sprite sheet for all the level monsters.
+Did simple bug testing, did not get actual testing-testing done.

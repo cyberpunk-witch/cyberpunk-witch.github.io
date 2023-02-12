@@ -1,0 +1,77 @@
+
+h1{
+	text-align:center;
+}
+
+#aMazeTainer{
+	display:inline-block;
+	background-color: black;
+}
+
+#sidebar{
+	display: inline-block;
+	text-align: center;
+}
+
+span{
+	text-align:center;
+	display:block;
+}
+
+div{
+	text-align:center;
+}
+
+div .resultsDiv{
+	border: 4px double black;
+}
+
+body{
+	background-color: #333333;
+	color:#FFECAA;
+}
+
+button{
+	background-color:#333333;
+	color:#FFECAA;
+	width: 80%;
+}
+
+.infoBlob{
+	text-align: left;
+}
+
+.container{
+	text-align:center;
+}
+
+#mainInfo{
+	text-align: left;
+	color: lime;
+	background-color: black;
+	height: 100px;
+	min-width: 1216px;
+	overflow-y: scroll;
+}
+.infoLine{
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+}
+
+.vspacer{
+	min-height: 16px;
+	height: 16px;
+}
+
+#volume-control{
+	width: 80%;
+	margin: auto;
+}
+.volume{
+	background-color:#333333;
+	color:#FFECAA;
+	border: 3px outset black;
+	width: 80%;
+	margin-left: 10%;
+}

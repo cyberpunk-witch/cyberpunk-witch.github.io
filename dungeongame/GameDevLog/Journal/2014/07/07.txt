@@ -1,0 +1,26 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2014-07-07T10:43:32-07:00
+
+====== Monday 07 Jul 2014 ======
+
+Read project description.
+Downloaded rot.js (maze library) and began rot tutorial. Created floor tiles in Gimp.
+Generated a rudimentary ascii map.
+Added directional functionality, changed checking boxes to checking grass.
+Turned grass green.
+Made it so that grass stayed green after passing over it.
+Came up with portal concept.
+/*
+numpad 1	 97 - down left
+numpad 2	 98 - down
+numpad 3	 99 - down right
+numpad 4	 100 - left
+numpad 6	 102 - right
+numpad 7	 103 - upleft
+numpad 8       104 - up
+numpad 9      105 - upright
+*/
+
+
+
