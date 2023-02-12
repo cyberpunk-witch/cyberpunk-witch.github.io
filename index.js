@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 var path = require('path');
-var PORT = 3000;
+var PORT = 8080;
  
 // Static Middleware
 app.use(express.static(path.join(__dirname, '/')))
